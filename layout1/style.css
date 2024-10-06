@@ -1,0 +1,31 @@
+.parent{
+    width: 70%;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr ;
+    grid-gap : 20px;
+    padding:20px;
+    height: 400px;
+    display: grid;
+
+}
+.child:nth-child(1){
+    background-color:green;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}   
+.child:nth-child(2){
+    background-color:yellow;
+}
+    
+.child:nth-child(3){
+    background-color:red;
+}    
+.child:nth-child(4){
+    background-color:rebeccapurple;
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
+    
+
+  

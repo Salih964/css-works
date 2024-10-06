@@ -1,0 +1,38 @@
+css =>cascading style sheet
+
+a)inline style sheet
+syntax: style: property:value;
+b)external css
+Select{
+property:vlaue;
+property:value;
+}
+*)Basic selectors
+    a)Tag selectors
+    b)id selector (#)
+    c)class selector (.)
+
+*)box model
+    margin (left, top,right, bottom)
+    padding(left, top, right,bottom)
+
+*)flex box
+    set display property of parent flex
+    display:flex;
+    justify-content: flex-start;
+    justify-content:flex-end;
+    justify-content:center;
+    justify-content:space-between;
+    justify-content:space-around;
+    justify-content:space-evenly;
+
+    align-items:flex-end;//flex-start
+
+*)css units
+    a)absolute units
+        1)pixel
+    b)relative units    
+        a)% parent
+        c)vh(viewport height), Vw(viewport width)
+        d)fr(fraction)
+        e)em, rem
